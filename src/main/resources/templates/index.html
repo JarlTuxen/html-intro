@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
@@ -13,7 +13,7 @@
     </div>
 
     <div>
-        <a href="about">Klik her for at se billede</a>
+        <a th:href="@{about}" href="about.html">Klik her for at se billede</a>
     </div>
 
 </body>
