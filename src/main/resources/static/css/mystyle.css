@@ -1,7 +1,15 @@
+* {
+    color: red;
+}
+
 h1 {
-    color: #00ff00;
+    color: green;
 }
 
 p {
     background-color: red;
+}
+
+.myPadding {
+    padding: 27px;
 }
